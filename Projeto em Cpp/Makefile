@@ -1,12 +1,3 @@
-############
-# Exemplo de makefile
-# Prof. João Paulo A. Almeida
-# Programação OO
-#
-# A princípio, você não precisa alterar nada, mas aqui assume-se que o diretório atual
-# é o diretório onde estão os códigos fonte (.cpp).
-#
-
 # nome do compilador
 CPP = g++
 
