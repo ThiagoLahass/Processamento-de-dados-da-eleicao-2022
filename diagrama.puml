@@ -1,0 +1,22 @@
+/*
+@startuml dominio
+' !theme spacelab
+
+class Deputados{
+    main()
+}
+
+package man_dados {
+    Deputados  <|-- Read
+    Deputados  <|-- Write
+}
+
+package dominio {
+    Deputados  <|-- Candidato
+    Deputados  <|-- Partido
+
+    Candidato "*" <--> "1" Partido
+}
+
+@enduml
+*/
